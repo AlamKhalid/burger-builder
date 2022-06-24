@@ -16,7 +16,7 @@ const Burger = ({ burgerIngredients, hasIngredients}) => {
         </div>
         {hasIngredients ?
           ingredients
-         : <h2>No Ingredients Added</h2>}
+         : <h2 className='h2-tag'>No Ingredients Added</h2>}
         <div className='burger-bottom bun'></div>
       </div>
     );
