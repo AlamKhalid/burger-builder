@@ -1,0 +1,32 @@
+.adder-row {
+    display: flex;
+    align-items: center;
+}
+
+.adder-div * {
+    min-width: 80px;
+}
+
+.adder-div button {
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.adder-div button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.less-btn {
+    background-color: #d39952;
+    outline: none;
+    border: none;
+    color: white;
+    border: 1px solid #aa6817;
+}
+
+.more-btn {
+    color: white;
+    background-color: #8f5e1e;
+    border: 1px solid #aa6817;
+}
